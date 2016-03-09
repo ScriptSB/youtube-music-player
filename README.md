@@ -1,7 +1,7 @@
 # youtube-music-player
 Mini music player for website
 
-# example usage
+# Usage
 
 Load js file
 
@@ -20,8 +20,7 @@ YMP.list = [
 ```
 ... It's over!
 
-
----  
+# Expert  
 
 Use Controller
 
