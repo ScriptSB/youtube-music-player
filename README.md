@@ -20,7 +20,8 @@ YMP.list = [
 ```
 ... It's over!
 
----
+
+---  
 
 Use Controller
 
@@ -32,7 +33,7 @@ Use Controller
 </div>
 ```
 
-How to control
+JS control
 
 ``` js
 // play
