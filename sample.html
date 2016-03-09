@@ -1,6 +1,7 @@
 <html>
 <head>
   <meta charset='utf-8'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <script src="youtube-music-player.js"></script>
   <script>
     YMP.list = [
@@ -9,14 +10,27 @@
       { name:'Silence', src:'_WXHjb01IOg' }
     ];
   </script>
+
+  <style>
+    body {
+      background-color: #000;
+      text-align: center;
+    }
+    a {
+      color: #999;
+      transition: 0.3s;
+    }
+    a:hover {
+      color:#FFF;
+      background-color: #444;
+      cursor: pointer;
+    }
+  </style>
 </head>
+
 <body>
-
-  <div>
-    <a id="ymp-play">play</a>
-    <a id="ymp-pause">pause</a>
-    <a id="ymp-change">change</a>
-  </div>
-
+  <a><i id="ymp-play" class="fa fa-play fa-2x"></i></a>
+  <a><i id="ymp-pause" class="fa fa-pause fa-2x"></i></a>
+  <a><i id="ymp-change" class="fa fa-step-forward fa-2x"></i></a>
 </body>
 </html>
