@@ -18,6 +18,19 @@ YMP.list = [
   { name:'Silence',           src:'_WXHjb01IOg' }
 ];
 ```
+... It's over!
+
+---
+
+Use Controller
+
+``` html
+<div>
+  <a id="ymp-play">play</a>
+  <a id="ymp-pause">pause</a>
+  <a id="ymp-change">change</a>
+</div>
+```
 
 How to control
 
@@ -39,16 +52,6 @@ YMP.shuffle = false;
 
 // access Youtube API
 YMP.player.setVolume(10);
-```
-
-Use Controller
-
-``` html
-<div>
-  <a id="ymp-play">play</a>
-  <a id="ymp-pause">pause</a>
-  <a id="ymp-change">change</a>
-</div>
 ```
 
 Customize!
