@@ -105,6 +105,14 @@ function onYouTubeIframeAPIReady() {
         if(event.data == YT.PlayerState.ENDED){
           YMP.change();
         }
+        else if(event.data == YT.PlayerState.UNSTARTED){
+          setTimeout(function(){
+            if(YMP.player.getPlayerState() == YT.PlayerState.UNSTARTED){
+              console.warn('link error: ' + YMP.list[YMP.now].src);
+              YMP.change();
+            }
+          }, 3000);
+        }
       }
     }
   });
