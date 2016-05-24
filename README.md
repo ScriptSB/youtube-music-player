@@ -1,6 +1,6 @@
 # youtube-music-player
 Mini music player for website  
-[sample](http://nupamore.github.io/ymp)
+[sample](http://nupamore.github.io/youtube-music-player/sample.html)
 
 # Usage
 
